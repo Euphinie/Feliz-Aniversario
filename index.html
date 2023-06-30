@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥Feli Animesariouwu♥</title>
+  <style>
+    .body {
+      background-color: rgb(240, 195, 204);
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">Se que hay cosas que no se pueden arreglar, no existen las herramientas exactas para ello, y algunas no tienen repuesto. No obstante mi solucion para esto, es constancia y tiempo.
+ Como dijeron estos pajaritos
+    -¿Cuanto te gusto hoy?
+    -Mas que ayer, pero  menos que mañana uwu ♥Le gustaria ser feliz conmigo, estimado caballerito?♥
+</h1>
+  <img src="https://64.media.tumblr.com/c4dd73c189bdd789c839402b51beab04/8b9dc230500df5aa-a2/s1280x1920/378b5dbedb9bda22b8079c9a65e940ec3f0f233b.jpg" alt="Foto D My" class="body__img" />
+  <br>
+  <button id="yes">Si♥</button>
+  <button id="no">No:(</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞Muchas graciasuwu nada forzado♥💞');
+      alert('Te amo mucho♥ te dejo una rolita pa que la escuche, rosita la programadora');
+      location.href = 'https://www.youtube.com/watch?v=BZTIsraLp4s=50';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
